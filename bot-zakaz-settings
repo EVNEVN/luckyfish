@@ -1,0 +1,7 @@
+
+	const bethigh = true;			//true-over; false-under
+	const basebet = 0.00000001;	//base bet
+	const chance = 49.50;			//play chance
+	const multiplier = 2.00;		//bet multiplier - multiplying a bet on a loss
+	const timestart = 10000;		//bot start time after reboot, in milliseconds - 1000 = 1 second
+	const timecheckerror = 60000;	//time to check the connection to the site, if an error occurs and the bot stops then reboot, in milliseconds - 1000 = 1 second
